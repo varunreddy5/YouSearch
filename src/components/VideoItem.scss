@@ -1,0 +1,14 @@
+.video-item {
+  cursor: pointer;
+  img {
+    max-width: 170px;
+  }
+}
+
+@media screen and (min-device-width: 1600px) {
+  .video-item {
+    img {
+      max-width: 225px;
+    }
+  }
+}
