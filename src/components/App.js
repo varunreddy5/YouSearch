@@ -38,9 +38,10 @@ class App extends React.Component {
             <div className='col-md-6 offset-md-1'>
               <VideoDetail video={this.state.selectedVideo}></VideoDetail>
             </div>
-            <div className='col-md-5'>
+            <div className='col-md-4'>
               <VideoList videos={this.state.videos} onVideoSelect={this.onVideoSelect}></VideoList>
             </div>
+            <div className="col-md-1"></div>
           </div>
         </div>
       </div>
